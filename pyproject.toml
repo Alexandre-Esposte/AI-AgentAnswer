@@ -1,5 +1,5 @@
 [project]
-name = "llm-docanswer"
+name = "ai-agentanswer"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,5 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "langchain>=0.3.14",
     "langchain-groq>=0.2.3",
+    "langgraph>=0.2.66",
     "python-dotenv>=1.0.1",
 ]
